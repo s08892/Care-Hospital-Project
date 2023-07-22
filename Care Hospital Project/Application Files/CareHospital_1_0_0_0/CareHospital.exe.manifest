@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CareHospital.exe" version="1.0.0.0" publicKeyToken="ca628d22ee814563" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="consultation_consulting_laptop_doctor_hehy_icon_189005.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CareHospital" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CareHospital.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CareHospital.exe" size="1562624">
+      <assemblyIdentity name="CareHospital" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>UIZWL7HPmtggqQYIV2o1wK3HZtM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CareHospital.exe" size="1562624">
+      <assemblyIdentity name="CareHospital" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7t40n8AbUlshCpVpgjvsik4BmDo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AppointmentBookingSystem1.mdb" size="1306624" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X7pARGPfJuM3utn3SKqt9I07Cd8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CareHospital.exe.config" size="559">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r3Z9nmB3f22fbFryu28QblJq700=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="consultation_consulting_laptop_doctor_hehy_icon_189005.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1kNU+MBdAjDZglgh4zjBNEspPLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hospital-2_icon-icons.com_66067.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tZntcCjMWFv2RwQticL4dsOusgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-0JMM81D\user" issuerKeyHash="ecaa53d9aba6456428030fcf84789e8ff2406d76" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FIKszzKaQD57RwUFKNmiZalSAl0=</DigestValue></Reference></SignedInfo><SignatureValue>PWWzl9RDtc9pdPLUyNtHxWp6bAherBP8VOb0mqT2gawgPImkDpD3VMhFTprvwvxyeBqyhwC+lr2A2KM9xmSRn743H754zPATaOhotGA6XRnuk5SW5QDkf9Ak1I88huoBUIw8zKKkzIAD18cFx4vH828Ok4l1BLzoHvcVuTqUfLQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oNIVbGoDVDFPstudQ49rAYp57/3yGp1xGabFVqTbupXPPWRk9Ze29fmf8eP0bkY/8qfl9PgNxVlh/z20PoXFxTF7OuJ+VD8fGOIiQrcAXB9wmCO3emshMEKODZEW35adt9eFTdzPk5+DB6PWqqR3E3un0adTAaM7Zta5pTLn9/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5d0252a965a2d9280505477b3e409a32cfac8214" Description="" Url=""><as:assemblyIdentity name="CareHospital.exe" version="1.0.0.0" publicKeyToken="ca628d22ee814563" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-0JMM81D\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0Gn6bxn/Kq436bKPVevaIMwl/Hg=</DigestValue></Reference></SignedInfo><SignatureValue>Z7jx+nHt6taEoO8VbO6noFnoAq5bhz9WRNIa4cs07dSTkYeB4KEvTnzWcHlKAcvF1WbtDOg6GG9ZMQ4BHqUiBwuRIyENxjpoqHmzxeDbiDQqK9u4YecwmxZM18dXsqWnqrt6panNSHryU2e+96i0X8Bt6euuphZmy4jmTvcoAgk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oNIVbGoDVDFPstudQ49rAYp57/3yGp1xGabFVqTbupXPPWRk9Ze29fmf8eP0bkY/8qfl9PgNxVlh/z20PoXFxTF7OuJ+VD8fGOIiQrcAXB9wmCO3emshMEKODZEW35adt9eFTdzPk5+DB6PWqqR3E3un0adTAaM7Zta5pTLn9/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQeXbjBxJk861JyqayZALInzANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADAASgBNAE0AOAAxAEQAXAB1AHMAZQByMB4XDTIzMDcyMDE2MTI0NloXDTI0MDcxOTIyMTI0NlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAwAEoATQBNADgAMQBEAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoNIVbGoDVDFPstudQ49rAYp57/3yGp1xGabFVqTbupXPPWRk9Ze29fmf8eP0bkY/8qfl9PgNxVlh/z20PoXFxTF7OuJ+VD8fGOIiQrcAXB9wmCO3emshMEKODZEW35adt9eFTdzPk5+DB6PWqqR3E3un0adTAaM7Zta5pTLn9/ECAwEAATANBgkqhkiG9w0BAQUFAAOBgQCSPCqMtZGO1tgx/OcF7Ex/zLnQQ18N+1Sm/WEFmoG0p2BJgqvnqNWgXZN7h0NTyjEO5FjTaFCf/3pxh9DQI2lmXxQZ2vYCXzsfKz2Ju4kj5BcEqqzVZWDzLw67EOXHNl9yyEAMPhxDZvDHMM0Yaqv+hqeFemqwN7hNw0Cs4eWAng==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
